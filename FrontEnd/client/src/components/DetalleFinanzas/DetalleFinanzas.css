@@ -1,0 +1,45 @@
+.detalle-finanzas {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detalle-finanzas table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.detalle-finanzas th,
+.detalle-finanzas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.detalle-finanzas th {
+    background-color: #f2f2f2;
+}
+
+
+#btningreso,
+#btnsalida {
+    margin: 2rem auto 0 auto;
+    max-width: 65rem;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    width: 15rem;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnsalida {
+    background-color: red;
+}
+
+#btningreso {
+    background-color: green;
+}

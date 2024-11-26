@@ -1,0 +1,131 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+header {
+    position: sticky;
+    top: 0;
+    height: 10rem;
+    background-color: #4a90e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    z-index: 1000;
+} */
+  
+.registro-container {
+    max-width: 40rem;
+    margin: 20rem auto 10rem;
+    padding: 2rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.8rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+  
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Mulish';
+}
+  
+.form-group {
+    margin-bottom: 1.5rem;
+}
+  
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+
+    font-size: 1.4rem;
+}
+  
+input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    font-size: 1.5rem !important;
+    transition: border 0.3s ease;
+    font-family: Mulish;
+}
+  
+input:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+  
+button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #218838;
+}
+  
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+  
+.swal2-close {
+    display: none !important; 
+}
+
+.custom-swal-popup {
+    background-color: #f8d7da; /* Color de fondo */
+    color: #721c24;  
+    font-size: 1.3rem;          /* Color de texto */
+
+}
+
+.custom-success-popup {
+    background-color: #d4edda; /* Fondo verde claro */
+    color: #155724;            /* Color de texto verde oscuro */
+    border: 0.1rem solid #c3e6cb; /* Borde verde */
+
+    font-size: 1.5rem;
+    font-family: Mulish;
+}
+
+
+
+
+.btn-primary{
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Mulish;
+}
+
+
+
+
+.swal2-popup.swal2-toast .swal2-html-container{
+    font-size: 1.5rem;
+    font-family: Mulish;
+
+}

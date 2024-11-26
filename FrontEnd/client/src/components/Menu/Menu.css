@@ -1,0 +1,107 @@
+.menu-container {
+    background-color: #1c1c1c;
+    color: #f8f8f8;
+    padding: 40px;
+    border-radius: 12px;
+    width: 60%;
+    margin: 30px auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 14rem;
+    padding-top: 1rem; /* Opcional: ajusta según tu diseño */
+}
+
+.menu-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ffdd57;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ffdd57;
+    padding-bottom: 10px;
+}
+
+.menu-section {
+    margin-top: 30px;
+}
+
+.section-header h2 {
+    font-size: 1.8em;
+    color: #ffdd57;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #444;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.section-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section-content ul {
+    flex: 2;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-image {
+    flex: 1;
+    max-width: 250px;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #ffdd57;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-section li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    padding: 8px 0;
+    border-bottom: 1px dashed #444;
+}
+
+.menu-section li:last-child {
+    border-bottom: none;
+}
+
+.menu-section li span {
+    color: #ffdd57;
+    font-weight: bold;
+}
+
+.menu-section li:hover {
+    background-color: #333;
+    border-left: 3px solid #ffdd57;
+}
+
+@media (max-width: 600px) {
+    .menu-container {
+        padding: 20px;
+        width: 95%;
+    }
+    .menu-container h1 {
+        font-size: 2em;
+    }
+    .section-header h2 {
+        font-size: 1.5em;
+    }
+    .section-content {
+        flex-direction: column;
+    }
+    .menu-image {
+        width: 100%;
+        max-width: 100%;
+    }
+    .menu-section li {
+        font-size: 1em;
+    }
+}

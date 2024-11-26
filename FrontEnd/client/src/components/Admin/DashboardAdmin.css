@@ -1,0 +1,233 @@
+/* Estilos Generales */
+.container-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    margin: 14rem 7%;
+    margin-bottom: 5rem;
+}
+
+.admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.admin h1 {
+    font-weight: normal !important;
+    font-family: Mulish !important;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #333;
+
+
+}
+
+/* Estilos de las Tarjetas del Menú */
+.admin-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.5rem;
+    
+}
+
+.admin-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f7fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    min-width: 17%;
+    height: 10rem;
+    transition: transform 0.3s ease;
+    position: relative;
+    cursor: pointer;
+}
+/* Colores suaves para los bordes y tonos complementarios para los iconos */
+
+.a {
+    border-left:   #6bc5f5 solid 5rem; /* Azul pastel */
+}
+
+.aa {
+    color: #0d527a !important;/* Azul muy claro para el icono .aa */
+}
+
+.b {
+    border-left: #2f5eb4 solid 5rem; /* Azul lavanda suave */
+}
+
+.bb {
+    color: #09235a !important; /* Azul lavanda claro para el icono .bb */
+}
+
+.c {
+    border-left: #2fb841 solid 5rem; /* Verde menta suave */
+}
+
+.cc {
+    color: #094121 !important; /* Verde menta claro para el icono .cc */
+}
+
+.d {
+    border-left: #ec9b31 solid 5rem; /* Naranja durazno suave */
+}
+
+.fa-user-check {
+    color: #502d09 !important; /* Naranja durazno claro para el icono .dd */
+}
+
+.e {
+    border-left: #f15c5c solid 5rem; /* Rosa coral suave */
+}
+
+.ee {
+    color: #3b0808 !important; /* Rosa coral claro para el icono .ee */
+}
+
+
+.e {
+    border-left: #f15c5c solid 5rem; /* Rosa coral suave */
+  }
+  
+  .ee {
+    color: #3b0808 !important; /* Rosa coral claro para el icono */
+  }
+  
+  .f {
+    border-left: #4CAF50 solid 5rem; /* Verde suave */
+  }
+  
+  .ff {
+    color: #2b7a31 !important; /* Verde más oscuro para el icono */
+  }
+  
+  .g {
+    border-left: #ffb74d solid 5rem; /* Naranja claro */
+  }
+  
+  .gg {
+    color: #bf6e16 !important; /* Naranja oscuro para el icono */
+  }
+  
+  .h {
+    border-left: #42a5f5 solid 5rem; /* Azul suave */
+  }
+  
+  .hh {
+    color: #0c68a8 !important; /* Azul más oscuro para el icono */
+  }
+  
+.admin-menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.admin-menu-item i {
+    font-size: 2.5rem;
+    color: #4A90E2;
+    margin-right: 1rem;
+    position: absolute;
+    left: 0;
+    margin-left: -3.8rem;
+    color: #b6d7fd;
+}
+
+.admin-menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.admin-menu-content h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.admin-menu-content p {
+    font-size: 4rem;
+
+
+    margin: 0;
+    text-align: center;
+}
+
+.container-countChart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 750px) { 
+    .container-admin {
+        margin: 14rem 2%;
+    }
+    .container-grafics{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+        flex-wrap: wrap;
+    }
+    .admin-menu-item {
+        min-width: 90%;
+    }
+
+    .radar-chart-container canvas {
+        min-width: 35rem !important;
+        height: 40% !important;
+    }
+}
+
+
+/* /styles/DashboardAdmin.css */
+.grafico-general {
+    width: 100%;  /* Toma el 100% del contenedor */
+    height: 35rem;  /* Ajusta la altura */
+    margin-bottom: 2rem;
+  }
+  
+
+  .container-grafics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+  }
+
+  .container-countChart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .radar-chart-container canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width:35rem ;
+    height: 40% ;
+    width: 100%;
+
+
+}

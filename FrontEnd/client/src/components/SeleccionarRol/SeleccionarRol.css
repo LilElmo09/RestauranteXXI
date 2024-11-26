@@ -1,0 +1,80 @@
+.margen {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+  }
+  
+  .margen h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #343a40;
+  }
+  
+  .margen ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+  }
+  
+  .margen li {
+    list-style: none;
+  }
+  
+  .margen button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 45rem;
+    height: 10rem;
+    padding: 2rem;
+    font-size: 3rem;
+    color: #343a40;
+    background-color: transparent;
+    border: 0.2rem solid #007bff;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .margen button i {
+    font-size: 5rem;
+    margin-right: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .margen button:hover {
+    color: white;
+    border-color: #0e9fff00;
+    box-shadow: 0 0 15px 5px rgba(14, 159, 255, 0.7);
+  }
+  
+  .margen button:hover::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 0.3rem solid rgba(14, 159, 255, 0.281);
+    animation: pulsar 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes pulsar {
+    0%, 100% {
+      border-color: rgba(14, 159, 255, 0.2);
+    }
+    50% {
+      border-color: rgba(14, 159, 255, 0.5);
+    }
+  }
+  

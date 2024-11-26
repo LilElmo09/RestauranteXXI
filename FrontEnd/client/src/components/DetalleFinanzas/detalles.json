@@ -1,0 +1,46 @@
+{
+    "ingresos": [
+        {
+            "descripcion": "Empanadas",
+            "monto": 5000,
+            "fecha": "2023-01-01"
+        },
+        {
+            "descripcion": "Bebidas",
+            "monto": 6000,
+            "fecha": "2023-01-05"
+        }
+    ],
+    "salidas": [
+        {
+            "descripcion": "Alquiler",
+            "monto": 500000,
+            "fecha": "2023-01-03"
+        },
+        {
+            "descripcion": "Luz",
+            "monto": 10000,
+            "fecha": "2023-01-10"
+        },
+        {
+            "descripcion": "Agua",
+            "monto": 5000,
+            "fecha": "2023-01-10"
+        },
+        {
+            "descripcion": "Internet",
+            "monto": 20000,
+            "fecha": "2023-01-10"
+        },
+        {
+            "descripcion": "Gas",
+            "monto": 10000,
+            "fecha": "2023-01-10"
+        },
+        {
+            "descripcion": "Sueldos",
+            "monto": 1000000,
+            "fecha": "2023-01-10"
+        }
+    ]
+}

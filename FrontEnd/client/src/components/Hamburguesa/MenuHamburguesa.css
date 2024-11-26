@@ -1,0 +1,110 @@
+.hamburguesa {
+    cursor: pointer;
+    position: fixed;
+    top: 10rem; /* Ajusta según sea necesario */
+    left: 2rem; /* Ajusta según sea necesario */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    width: 3rem; /* Ancho del contenedor */
+    height: 3rem; /* Alto del contenedor */
+
+}
+
+.hamburguesa .bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 3rem; /* Ancho de las barras */
+    height: 0.4rem; /* Alto de las barras */
+    background-color: #333; /* Cambia el color según sea necesario */
+    margin: 0.5rem 0;
+    transition: 0.3s;
+    border-radius: 0.2rem; /* Esquinas redondeadas para un mejor aspecto */
+    
+}
+
+.hamburguesa.active .bar:nth-child(1) {
+    transform: rotate(57deg) translate(1.1rem, 0.6rem); /* Gira la barra superior */
+    width: 2rem; /* Ancho de las barras */
+}
+
+.hamburguesa.active .bar:nth-child(2) {
+    opacity: 0; /* Oculta la barra del medio */
+}
+
+.hamburguesa.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(0.4rem, -0.4rem); /* Gira la barra inferior */
+    width: 2rem; /* Ancho de las barras */
+}
+
+/* Estilo para la flecha apuntando a la izquierda */
+.hamburguesa.arrow .bar:nth-child(1) {
+    transform: rotate(45deg) translate(0.5rem, 0.5rem); /* Gira la barra superior */
+}
+
+.hamburguesa.arrow .bar:nth-child(2) {
+    transform: rotate(90deg); /* Gira la barra del medio a horizontal */
+    width: 2rem; /* Ajusta el ancho si es necesario */
+}
+
+.hamburguesa.arrow .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-0.5rem, -0.5rem); /* Gira la barra inferior */
+}
+
+.menu {
+    position: fixed;
+    top: 8rem;
+    left: 0;
+    height: 100%;
+    width: 25rem; /* Ancho del menú */
+    background-color: #ffffff; /* Cambia según tu diseño */
+    box-shadow: 0.2rem 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999; /* Asegúrate de que esté por encima del contenido */
+    transition: transform 0.3s ease;
+    font-family: 'Mulish', sans-serif; /* Fuente Mulish */
+    font-size: 1.5rem; 
+    overflow-y: auto; 
+    padding-top: 5rem;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 1.5rem 0;
+    margin: 0; /* Eliminar margen por defecto */
+}
+
+.menu ul li {
+    padding: 1.5rem 2rem;
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 0.1rem solid #ccc; /* Separador entre opciones */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.menu ul li:hover {
+    background-color: #f0f0f0; /* Resaltar al pasar el ratón */
+}
+
+
+.rol-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #333;
+    background: rgba(157, 16, 170, 0);
+    font-weight: bold;
+    border-bottom: 0.1rem solid #ccc;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem ;
+    padding-left: 15rem;
+    position: absolute;
+    top : 1.5rem;
+    right: 0;
+    
+}
+.rol-menu svg{
+    font-size: 2rem !important;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}

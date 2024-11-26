@@ -1,0 +1,46 @@
+.finanzas-container div {
+    margin: 10px 0;
+}
+
+.finanzas-container label {
+    margin-right: 10px;
+}
+
+.finanzas-container input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.finanzas-container button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.finanzas-container h3 {
+    margin-top: 20px;
+}
+
+.finanzas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.date-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+}
+
+.date-container>div {
+    margin-right: 10px;
+}
+
+.date-container>div:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,90 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+* {
+  text-decoration: none;
+  margin: 0rem;
+  padding: 0rem;
+  font-style: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  min-height: 100vh; /* Asegura que el body ocupe al menos la altura completa de la ventana */
+  display: flex;
+  flex-direction: column; /* Alinea el contenido en columna */
+  justify-content: space-between; /* Coloca el footer al final */
+  background-color: rgb(247, 248, 248);
+}
+*{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+/* estilos para las alertas de eliminacion en App.js */
+
+.swal-popup-custom {
+  border-radius: 12px;
+  font-family: 'Arial', sans-serif;
+}
+
+.swal-confirm-btn {
+  background-color: #d32f2f;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.swal-cancel-btn {
+  background-color: #757575;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+
+
+.swal-popup-info {
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.swal-confirm-btn {
+  background-color: #4a90e2;
+  color: white;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(74, 144, 226, 0.4);
+}
+
+.swal-confirm-btn:hover {
+  background-color: #357abd;
+  color: white;
+
+}
+.swal-cancel-btn-2{
+  background: #d32f2f;
+}

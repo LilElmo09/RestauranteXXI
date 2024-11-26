@@ -1,0 +1,140 @@
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    padding: 6rem 0 1rem 0;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #dbdbdb;
+    font-family: Arial, sans-serif;
+}
+
+.container-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+    font-family: Mulish;
+}
+
+.container-list li {
+    list-style: none;
+    text-align: left;
+    margin: 1rem;
+    font-size: 1.6rem;
+}
+
+.container-footer p {
+    color: white;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.274),
+        /* Resplandor difuso */
+        0px 0px 12px rgba(255, 255, 255, 0.178);
+    /* Resplandor suave adicional */
+    margin: 0;
+    font-size: 1.4rem;
+    font-family: Mulish;
+}
+
+.container-footer h2 {
+    color: white;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8),
+        /* Resplandor difuso */
+        0px 0px 12px rgba(255, 255, 255, 0.6);
+    /* Resplandor suave adicional */
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.container-footer h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    /* Ajusta la distancia del subrayado */
+    transform: translateX(-50%);
+    width: 100%;
+    /* Ajusta el ancho del subrayado */
+    height: 3px;
+    /* Ajusta el grosor del subrayado */
+    background: linear-gradient(90deg, #ffdd57, #ff6b6b);
+    /* Degradado de color */
+    border-radius: 4px;
+    /* Bordes redondeados */
+    box-shadow: 0px 0px 8px rgba(255, 109, 109, 0.8);
+    /* Resplandor para el subrayado */
+}
+
+
+.logo-footer {
+
+
+    width: 3rem;
+    margin-right: 1rem;
+
+}
+
+.down-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.fa-brands {
+    cursor: pointer;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+    background: #0c0a0469;
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    transition: background 0.5s;
+    /* Agregar la transición aquí */
+}
+
+.fa-brands:hover {
+    background: #0c0a04;
+
+}
+
+.container-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.container-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.container-list li {
+    color: #cccccc;
+    /* Un tono de gris claro para los enlaces */
+    padding: 0.3rem 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.container-list li:hover {
+    color: #ffffff;
+    /* Blanco puro al hacer hover */
+    transform: translateX(5px);
+    /* Movimiento sutil hacia la derecha */
+}
